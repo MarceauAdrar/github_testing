@@ -204,3 +204,23 @@ Nous allons créer un nouvel alias `auto_test` pour lancer cette commande dorén
 }
 ```
 Vous pourrez mainteanant lancer la commande `npm run auto_test` pour avoir un résumé des tests lancés !
+
+## Étape 7: ([`Intégration Cypress x Github Actions`](<https://github.com/MarceauAdrar/github_testing/tree/step07>))
+Nous allons maintenant faire en sorte de combiner Cypress avec Github. Le but sera de créer un workflow qui va lancer nos tests à chaque **pull** sur le repository.
+
+### *Workflow* CI/CD
+Effectuer des tests **CI/CD** réduit les erreurs de code et les problèmes. Il va permettre d'autoriser le push si et seulement si les tests sont validés ! Pratique, non ?
+
+Cette fois, cela se passera sur **VOTRE** repository Github<br>
+![image](https://github.com/user-attachments/assets/c370a9a8-5ee4-4386-9a80-a18f00de6074)<br>
+![image](https://github.com/user-attachments/assets/3666a9b4-3cf7-49cf-804a-b211a05ae938)<br>
+Si tout se passe bien, vous devriez être en train d'éditer un nouveau fichier `main.yml` qui se trouve dans `.github/workflows/`
+Donc maintenant, automatique, et à chaque push, j'aurais ce résultat:<br>
+![image](https://github.com/user-attachments/assets/436e3136-9420-4303-bb2e-2bb94e6891fb)<br>
+Sinon j'aurais ceci:<br>
+![image](https://github.com/user-attachments/assets/f9aa6a06-69eb-46ad-85d3-129845a8b2e0)<br>
+Je peux également avoir le détail en cliquant sur l'élément:<br>
+![image](https://github.com/user-attachments/assets/c79a1d6e-a767-43f0-95bc-6db7cc6dd499)<br>
+![image](https://github.com/user-attachments/assets/ae2af0d5-6b71-4878-9e5a-557799051b56)<br>
+
+Et voilà, il ne reste maintenant plus qu'à pratiquer ! :D
