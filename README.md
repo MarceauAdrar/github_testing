@@ -52,7 +52,7 @@ Lancez le test et regardez ce qu'il se passe !
 Ajoutez des objets et une connexion à la BDD<br>
 Ci-contre, le MCD:<br>
 ![image](https://github.com/user-attachments/assets/0e78c880-4067-44c2-b02e-ae0fd6032021)<br>
-Si vous avez des soucis, vous pouvez utiliser le fichier [`github_testing.sql`](<https://github.com/MarceauAdrar/github_testing/blob/step04/App\Utils\github_testing.sql>) pour créer la BDD.
+Si vous avez des soucis, vous pouvez utiliser le fichier [`github_testing.sql`](<https://github.com/MarceauAdrar/github_testing/blob/step04/App/Utils/github_testing.sql>) pour créer la BDD.
 
 Une fois que cela est fait, utilisez la documentation de Cypress pour:
 - donner un nom au test
